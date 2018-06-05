@@ -1,0 +1,7 @@
+"dir *.java" to see all java files
+
+"javac SineWave.java" to make the classes and the Framework/Panels
+
+See your SineWave files via "dir SineWave.*"
+
+"java SineWave" to run
