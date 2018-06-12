@@ -74,3 +74,38 @@ switch(passcode) {
         break;
 }
 System.out.println(coffeeType);
+
+
+//random function practices:
+//public = access modifier that allows anyone to use this public functions
+//void = return type. This function is not returning any data. When it's only performing actions and not returning any results, then void is the use. 
+//function name = "chorus", just the name. 
+
+//parameters = variables in the parentheses of our function, that we can use inside our function
+
+public void chorus() {
+    System.out.printtln("Something");
+    System.out.printtln("Something");
+    System.out.printtln("Something");
+    System.out.printtln("Something");
+    System.out.printtln("Something");
+}
+
+chorus();
+//call it by prompting this code to run
+
+boolean playButton; // true or false
+
+// Define a function playMusic() below.
+// This should print out: "Music is playing" when playButton is true
+// and "Music is paused" when playButton is false.
+public void playMusic() {
+    if(playButton) {
+        System.out.println("Music is playing");
+    } else {
+        System.out.println("Music is paused");
+    }
+}
+
+//setting variables with int, string etc?
+int something = 15; 
