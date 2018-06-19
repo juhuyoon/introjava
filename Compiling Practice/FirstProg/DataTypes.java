@@ -1,3 +1,5 @@
+//https://stackoverflow.com/questions/215497/in-java-difference-between-package-private-public-protected-and-private
+//https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html
 int maxInt = 2147483647; //normal integer
 long muchMOre = 214748347 * 10000000; //long = much larger integer. Storage/calculation takes much longer also only store natural numbers. 
 double fraction = 99.275; //takes longer to calculate, used to store large numbers or just fraction numbers. 
